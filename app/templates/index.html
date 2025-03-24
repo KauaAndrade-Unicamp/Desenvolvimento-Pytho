@@ -3,9 +3,10 @@
     {% block conteudo %}
 
     
-    <h2>Hello {{ nome }}!!!</h2>
+    <h2>Hello {{ nome }}!</h2>
+    <img class="img-quadrada" src="{{ url_for('static', filename='imagens/blogs.png') }}">
     <p>
-        Profissão: {{ dados.Profissao }} <br>
+        Profissão: {{ dados.Profissao }} ! <br>
         Github:: {{dados.Github}}
     </p>
 {% endblock %}
