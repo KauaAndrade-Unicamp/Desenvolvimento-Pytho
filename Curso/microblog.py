@@ -1,4 +1,4 @@
-from app import app
+from Curso import app
 import os
 
 if __name__ == 'main':
